@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "connectionTimeout": 15,
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "trustServerCertificate": true
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "SQL Server Local",
+            "username": "sa",
+            "password": "YourStrong!Passw0rd"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:SQLPractice}/SQLPractice.db",
+            "name": "SQLPractice"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
